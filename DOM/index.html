@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h4>Le DOM</h4>
+
+    <div class="ParentPrecedent">
+        ParentPrecedent
+        <div>
+            <div class="cl">Precedent</div>
+        </div>
+    </div>
+    <div class="Parent">
+        Noeud Text enfant de Parent div
+        <a class="cl" href="">Lien enfant</a>
+        <span>Span enfant</span>
+        <ul id="childUl">
+            <li><a href="">Lien li</a></li>
+            <li class="cl"> <span class="cl">Span li</span></li>
+        </ul>
+    </div>
+    <div class="ParentSuivant">
+        ParentSuivant
+        <div>
+            <div class="cl">Suivant</div>
+        </div>
+    </div>
+
+    <!-- innerHTML innerText textContext -->
+    <div class="inner">
+        Texte dans div.inner
+        <span>text dans span</span>
+        <div>Texte div.inner div</div>
+        Texte dans div.inner
+    </div>
+
+    <!-- creer ajouter elemnt -->
+    <ul class="cree">
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ul>
+
+    <!-- les attributs -->
+    <h5>Attribut</h5>
+    <img src="source" alt="image">
+    <a href="lien">Lien attribut</a>
+    <div class="d1">
+        <div class="child1"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

@@ -225,7 +225,7 @@ var b=3
 console.log(s)//undefined
 //console.log(s(5,4))//is not a fonction
 
-var s=function somme(a,b) {
+var s=function (a,b) {
     a=50 //parametre a et non pas a global
     return a+b
 }
